@@ -97,7 +97,7 @@ while choice != 0:
     
     if choice == 1:
         try:
-            print("===== Arquivos e diretórios =====")
+            print("Arquivos e diretórios")
             ftp.dir()
         except:
             error_msg()
