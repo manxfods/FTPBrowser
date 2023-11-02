@@ -50,7 +50,8 @@ def FileToText(FileName):
 
 def SendFileToGPT(FileName):
     FileToSend = FileToText(str(FileName))
-    api_key = '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'
+    api_key = input("Cole aqui a sua chave da API do OpenAI: ")
+    api_key = str(api_key)
     pergunta = input("""
                      Modelos de Requisição
                      
